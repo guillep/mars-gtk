@@ -18,5 +18,5 @@ CairoLibrary >> macModuleName [
 { #category : #'*Mars-Gtk' }
 CairoLibrary >> runner [
 	
-	^ TFSameThreadRunner new
+	^ TFSameThreadRunner uniqueInstance
 ]

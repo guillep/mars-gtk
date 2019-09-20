@@ -31,7 +31,7 @@ GtkSourceViewLibrary >> macModuleName [
 { #category : #converting }
 GtkSourceViewLibrary >> runner [
 	
-	^ TFSameThreadRunner new
+	^ TFSameThreadRunner uniqueInstance
 ]
 
 { #category : #'accessing platform' }

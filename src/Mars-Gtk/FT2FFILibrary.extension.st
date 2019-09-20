@@ -13,9 +13,3 @@ FT2FFILibrary >> macModuleName [
 	^ '/usr/local/lib/libfreetype.dylib'
 	"^ 'libfreetype.dylib'"
 ]
-
-{ #category : #'*Mars-Gtk' }
-FT2FFILibrary >> runner [
-	
-	^ TFSameThreadRunner new
-]
